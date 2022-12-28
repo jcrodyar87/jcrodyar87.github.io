@@ -1,0 +1,23 @@
+.navbar-area {
+    z-index: 99;
+    -webkit-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+}
+
+.sticky {
+    z-index: 99;
+    background-color: #fff;
+    -webkit-box-shadow: 0 20px 50px 0 rgb(0 0 0 / 5%);
+    box-shadow: 0 20px 50px 0 rgb(0 0 0 / 5%);
+    -webkit-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+    top: 0;
+    position: fixed;
+}
+
+header .sticky .navbar .navbar-nav .nav-item a.active {
+    color: #4353ff;
+}
